@@ -1,0 +1,23 @@
+
+form {
+  margin-top: 6rem;
+  background: rgba(13, 109, 253, 0.234);
+  box-shadow: 0 8px 100px 0 rgba(13, 110, 253, 0.501);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(13, 110, 253, 0.386);
+}
+.form-container {
+  border-radius: 20px;
+  padding: 40px;
+}
+.form-group {
+  margin: 1.3rem 0;
+}
+.form-group > label {
+  margin-bottom: 0.5rem;
+}
+.form-container > button {
+  margin-bottom: 0.5rem;
+}
