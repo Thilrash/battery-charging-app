@@ -8,22 +8,22 @@ Battery charging system is a web-based application to help specific vendors to k
 
 For example – The vendor (V) gives a battery to a person (X) for the rental basis, then should be consider below points.
 
-•	Person (X) information.
-•	Rental take date and time.
-•	Battery information.
-•	Payment information.
+- Person (X) information.
+- Rental take date and time.
+- Battery information.
+- Payment information.
 
 We need to consider the statistical system as well.
-•	Total battery belongs to the store.
-•	Total battery – available
-•	Total battery – ordered. 
-•	Balance battery
-•	The customer own battery information (Available)
+- Total battery belongs to the store.
+- Total battery – available
+- Total battery – ordered.
+- Balance battery
+- The customer own battery information (Available)
 
 The customers also can bring their own battery to put the charge to the store. This system will keep track of that data as well.
 
-•	Customer information.
-•	Battery information.
-•	Extra information (Services)
-•	Submitted date and time.
-•	Payment information.
+- Customer information.
+- Battery information.
+- Extra information (Services)
+- Submitted date and time.
+- Payment information.
