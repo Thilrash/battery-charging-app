@@ -1,0 +1,13 @@
+#navbarNavAltMarkup{
+    justify-content: space-between;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-nav>a{
+    text-decoration: none;
+}
