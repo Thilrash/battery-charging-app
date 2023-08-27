@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -8,7 +9,7 @@ const Login = () => {
     <section class="row justify-content-center">
     {/* <!--Making the form responsive--> */}
       <section class="col-12 col-sm-6 col-md-4">
-        <form class="form-container">
+        <form class="form-login">
         {/* <!--Binding the label and input together--> */}
         <div class="form-group">
           <h4 class="text-center font-weight-bold"> Login </h4>
@@ -22,7 +23,7 @@ const Login = () => {
         </div>
         <button type="Sign in" class="btn btn-primary btn-block">Sign in</button>
         <div class="form-footer">
-          <p> Don't have an account? <a href="#">Sign Up</a></p>
+          <p> Don't have an account? <Link to='/signUp'><a href='##'>Sign Up</a></Link></p>
         </div>
         </form>
       </section>
