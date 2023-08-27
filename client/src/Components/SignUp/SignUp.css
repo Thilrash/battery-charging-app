@@ -1,0 +1,15 @@
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-sign-up{
+    margin-top: 3rem;
+    padding: 2rem;
+    max-width: 400px;
+    width: 400px;
+    box-shadow: 0 0 100px 5px #969292;
+}
+.form-sign-up>:nth-child(1){
+    text-align: center;
+}
