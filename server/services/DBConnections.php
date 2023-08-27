@@ -17,3 +17,26 @@ if ($connection->connect_error) {
 } else {
     echo '<h1>Connection has been established successfully.</h1>';
 }
+
+function DatabaseQuery($sql)
+{
+    global $connection;
+    $result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
+    return $result;
+}
+
+function DbFetchAssoc($result)
+{
+    return mysqli_fetch_assoc($result);
+}
+
+function DbNumRows($result)
+{
+    return mysqli_num_rows($result);
+}
+
+function CloseConnection()
+{
+    global $connection;
+    mysqli_close($connection);
+}
