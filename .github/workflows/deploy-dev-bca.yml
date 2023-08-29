@@ -1,0 +1,20 @@
+name: Publish Battery Charging App to CPanel
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-UAT-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: FTP-DEV-Deploy-Action
+      uses: samkirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ${{ secrets.FTP_DEV_SERVER }}
+        ftp-username: ${{ secrets.FTP_DEV_USERNAME }}
+        ftp-password: ${{ secrets.FTP_DEV_PASSWORD }}
