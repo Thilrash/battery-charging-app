@@ -1,4 +1,4 @@
-name: Publish Battery Charging App to CPanel
+name: Publish Battery Charging App
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   FTP-Deploy-Action:
-    name: FTP-UAT-Deploy-Action
+    name: DEV-BC-APP
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.1.0
