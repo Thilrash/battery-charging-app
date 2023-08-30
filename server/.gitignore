@@ -1,4 +1,4 @@
 # Ignoring php files to git
 
 # Database connection string
-# DBConnectionString.php 
+DBConnectionString.php 
